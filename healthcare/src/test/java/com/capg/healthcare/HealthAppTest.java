@@ -7,6 +7,13 @@ import org.junit.jupiter.api.Test;
 class HealthAppTest {
 
 	@Test
+	public void test1() {
+		
+		
+		assertEquals(1, 1);
+	}
+	
+	@Test
 	void testGetEid() {
 		
 		HealthApp app = new HealthApp();
